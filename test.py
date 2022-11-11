@@ -10,6 +10,7 @@ df=sns.load_dataset('iris')
 st.write(df.head())
 st.bar_chart(df[['sepal_length']])
 tab1,tab2=st.tabs(["Tab 1", "Tab2"])
+
 from shroomdk import ShroomDK
 import pandas as pd
 import matplotlib.pyplot as plt
